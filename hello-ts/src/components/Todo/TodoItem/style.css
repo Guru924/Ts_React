@@ -1,0 +1,11 @@
+li {
+    background: lightblue;
+    margin: 10px;
+    padding: 5px;
+}
+
+.todo-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
