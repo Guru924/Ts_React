@@ -1,0 +1,18 @@
+.add-note {
+    display: flex;
+    gap: 7px;
+}
+
+.add-note input{
+    line-height: 2rem;
+    width: 65%;
+}
+
+.add-note button{
+    line-height: 2rem;
+    width: 15%;
+}
+.add-note select{
+    padding: 0.6rem 0;
+    /* width: 15%; */
+}
