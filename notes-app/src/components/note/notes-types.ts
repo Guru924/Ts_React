@@ -11,3 +11,9 @@ export type NoteType = {
     text: string;
     priority: Priority
 }
+
+export enum Colors{
+    high='aquamarine',
+    medium='azure',
+    low = 'tomato'
+}

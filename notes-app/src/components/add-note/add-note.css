@@ -1,18 +1,28 @@
 .add-note {
     display: flex;
-    gap: 7px;
+    border: 0;
 }
 
 .add-note input{
     line-height: 2rem;
     width: 65%;
+    border: 0;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    padding-left: 1rem;
 }
 
 .add-note button{
     line-height: 2rem;
     width: 15%;
+    border: 0;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    background-color: rgb(16, 188, 56);
 }
 .add-note select{
     padding: 0.6rem 0;
     /* width: 15%; */
+    border: 0;
+    outline: none;
 }
