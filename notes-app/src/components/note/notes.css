@@ -1,13 +1,7 @@
 
-.high{
-        background-color: aquamarine;
-
-}
-.medium{
-        background-color: azure;
-
-}
-.low{
-        background-color: tomato;
-
+.right-corner{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0.5rem;
 }

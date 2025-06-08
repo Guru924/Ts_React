@@ -1,7 +1,7 @@
 export type Priority = 'high' | 'medium' | 'low'
 
 export interface NoteProps {
-    id?: number | string;
+    id: number | string;
     text: string;
     priority?: Priority
 }
